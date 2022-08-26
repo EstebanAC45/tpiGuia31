@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="ejercicio1a.css" ?>
+
+<!-- ejemplo1.xml  SUCARNET -->
+<fichero>
+<ficha id="1" fechaingreso="1/11/2012">
+<nombre>Antonio</nombre>
+<apellido>Barbero</apellido>
+<direccion>Calle de Los Andes, 45</direccion>
+</ficha>
+
+<ficha carnet="AC17063">
+<nombre>Esteban</nombre>
+<apellido>Acosta</apellido>
+<universidad facultad="FIA">UES</universidad>
+<materia modalidad="Presencial">Tecnicas de Programacion</materia>
+<anio>2022</anio>
+</ficha>
+</fichero> 
+

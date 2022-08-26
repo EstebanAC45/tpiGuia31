@@ -1,0 +1,42 @@
+pais {
+    background-color: aqua;
+}
+
+departamento {
+    background-color:gray;
+    display:block;
+    text-align: center;
+    border-style: double;
+} 
+cabecera {
+    color:red;
+    display:inline;
+    font-size: larger;
+
+}
+ habitantes {
+     color:yellow;
+     display:inline;
+}
+altura {color:yellow;
+    font-size:3cm; 
+    display:none;
+}
+municipios{
+    background: firebrick;
+    color: aquamarine;
+}
+
+pais[nombre]::before{
+    content: attr(nombre) "--" attr(moneta) "--" attr(idioma);
+    color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    font-size: 1cm;
+}
+
+departamento[id]::before{
+    content: attr(id) "-------" attr(nombre) "---";
+    color: rgb(255, 0, 212);
+    font-size: larger;
+}

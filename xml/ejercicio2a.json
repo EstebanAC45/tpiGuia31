@@ -1,0 +1,25 @@
+{
+	"pais": {
+		"departamento": [
+			{
+				"cabecera": "San Salvador",
+				"habitantes": "1,700,000",
+				"altura": "545 MSNM",
+				"_id": "1",
+				"_nombre": "San Salvador"
+			},
+			{
+				"cabecera": "Cojutepeque",
+				"municipios": "16",
+				"habitantes": "232,238",
+				"altura": "588 MSNM",
+				"_id": "2",
+				"_nombre": "Cuscatlán"
+			}
+		],
+		"_nombre": "El Salvador",
+		"_moneta": "dolar",
+		"_codigo": "503",
+		"_idioma": "espaniol"
+	}
+}

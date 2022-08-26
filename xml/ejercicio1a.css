@@ -1,0 +1,46 @@
+fichero {
+    background-color:gainsboro;
+}
+
+ficha {
+    background-color:red;
+    display: flex;
+    justify-content: center;
+    
+
+} 
+nombre {
+    color:white;
+     display:inline;
+}
+ apellido {
+     color:yellow;
+     display:inline;
+}
+direccion {color:yellow;
+    font-size:1cm; 
+    display:none;
+}
+
+materia{
+    background: aqua;
+    color: brown;
+}
+ficha[id]::before {
+    content:attr(id) "-" attr(fechaingreso) "-";
+    color:gray;
+    font-weight:bold;
+}
+
+ficha[carnet]::before{
+    content: attr(carnet) " --- ";
+    color: black;
+    font-size: larger;
+}
+
+materia[modalidad]::before{
+    content: attr(modalidad) "----";
+    color: brown;
+    font-weight: bolder;
+};
+

@@ -1,0 +1,35 @@
+{
+	"fichero": {
+		"ficha": [
+			{
+				"nombre": "Antonio",
+				"apellido": "Barbero",
+				"direccion": "Calle de Los Andes, 45",
+				"_id": "1",
+				"_fechaingreso": "1/11/2012"
+			},
+			{
+				"nombre": "Esteban",
+				"apellido": "Acosta",
+				"universidad": {
+					"_facultad": "FIA",
+					"__text": "UES"
+				},
+				"materia": {
+					"_modalidad": "Presencial",
+					"__text": "Tecnicas de Programacion"
+				},
+				"anio": "2022",
+				"_carnet": "AC17063"
+			},
+			{
+				"nombre": "Pedro",
+				"apellido": "Ramirez",
+				"afp": "CRECER",
+				"isss": "Quezaltepeque",
+				"anio": "2022",
+				"_dui": "045245354-5"
+			}
+		]
+	}
+}
